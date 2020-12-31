@@ -21,21 +21,26 @@ video {
     top: calc(50% - 100px);
     left: calc(50% - 250px);
     animation-name: faceOne;
-    transform: rotateY(45deg) rotateX(45deg);
+    transform: rotateY(22.5deg) rotateX(45deg);
+    /* display: none; */
+
 }
 
 .two {
     top: calc(50% - 383px);
     left: calc(50% - 250px);
     animation-name: faceTwo;
-    transform: rotateY(-45deg) rotateX(45deg);
+    transform: rotateY(-22.5deg) rotateX(45deg);
+        /* display: none; */
+
 }
 
 .three {
     top: calc(50% - 242px);
-    left: calc(50% - 9px);
+    left: calc(50% - 10px);
     animation-name: faceThree;
-    transform: rotateY(45deg) rotateZ(45deg);
+    transform: rotateY(67.5deg) rotateZ(-45deg);
+    /* display: none; */
 }
 
 .bgvid {
@@ -44,28 +49,46 @@ video {
 
 @keyframes faceOne{
     0%{
-        transform: rotateY(450deg) rotateX(450deg) rotateZ(1080deg) translateX(42rem) translateY(9rem);
+    }
+    33%{
+        transform: rotateY(225deg) rotateX(225deg) rotateZ(540deg) translateX(20rem) translateY(4rem) scale(.1);
+    }
+    66%{
+        transform: rotateY(135deg) rotateX(135deg) rotateZ(1080deg) translateX(20rem) translateY(2rem) scale(.55);
     }
     100%{
-        transform: rotateY(45deg) rotateX(45deg);
+        transform: rotateY(22.5deg) rotateX(45deg);
     }
 }
 
 @keyframes faceTwo{
     0%{
-        transform: rotateY(450deg) rotateX(450deg) rotateZ(1080deg) translateX(50rem) translateY(-5rem);
+    }
+    33%{
+        transform: rotateY(225deg) rotateX(225deg) rotateZ(540deg) translateX(-2rem) translateY(-20rem) scale(.5);
+    }
+    66%{
+        transform: rotateY(292.5deg) rotateX(292.5deg) rotateZ(1080deg) translateX(-20rem) translateY(-2rem) scale(.65);
     }
     100%{
-        transform: rotateY(-45deg) rotateX(45deg);
+        transform: rotateY(-22.5deg) rotateX(45deg);
     }
 }
 
 @keyframes faceThree{
     0%{
-        transform: rotateY(450deg) rotateX(450deg) rotateZ(1080deg) translateX(-51rem);
+    }
+    33%{
+        transform: rotateY(225deg) rotateX(225deg) rotateZ(540deg) translateX(-40rem)scale(.3);
+    }
+    66%{
+        transform: rotateY(360deg) rotateX(360deg) rotateZ(1080deg) scale(.75);
     }
     100%{
-        transform: rotateY(45deg) rotateZ(45deg);
+        transform: rotateY(67.5deg) rotateZ(-45deg);
     }
 }
+
+
+
 
