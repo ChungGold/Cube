@@ -63,7 +63,7 @@ video {
         transform: rotateY(225deg) rotateX(225deg) rotateZ(540deg) translateX(-2rem) translateY(-20rem) scale(.5);
     }
     66%{
-        transform: rotateY(292.5deg) rotateX(292.5deg) rotateZ(1080deg) translateX(-20rem) translateY(-2rem) scale(.65);
+        transform: rotateY(292.5deg) rotateX(292.5deg) rotateZ(1080deg) translateX(-20rem) translateY(-2rem) scale(.75);
     }
     100%{
         transform: rotateY(-22.5deg) rotateX(45deg);
@@ -77,7 +77,7 @@ video {
         transform: rotateY(225deg) rotateX(225deg) rotateZ(540deg) translateX(-40rem) scale(.3);
     }
     66%{
-        transform: rotateY(360deg) rotateX(360deg) rotateZ(1080deg) scale(.75);
+        transform: rotateY(360deg) rotateX(360deg) rotateZ(1080deg) scale(.65);
     }
     100%{
         transform: rotateY(67.5deg) rotateZ(-45deg);
