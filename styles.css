@@ -22,8 +22,6 @@ video {
     left: calc(50% - 250px);
     animation-name: faceOne;
     transform: rotateY(22.5deg) rotateX(45deg);
-    /* display: none; */
-
 }
 
 .two {
@@ -31,8 +29,6 @@ video {
     left: calc(50% - 250px);
     animation-name: faceTwo;
     transform: rotateY(-22.5deg) rotateX(45deg);
-        /* display: none; */
-
 }
 
 .three {
@@ -40,7 +36,6 @@ video {
     left: calc(50% - 10px);
     animation-name: faceThree;
     transform: rotateY(67.5deg) rotateZ(-45deg);
-    /* display: none; */
 }
 
 .bgvid {
@@ -79,7 +74,7 @@ video {
     0%{
     }
     33%{
-        transform: rotateY(225deg) rotateX(225deg) rotateZ(540deg) translateX(-40rem)scale(.3);
+        transform: rotateY(225deg) rotateX(225deg) rotateZ(540deg) translateX(-40rem) scale(.3);
     }
     66%{
         transform: rotateY(360deg) rotateX(360deg) rotateZ(1080deg) scale(.75);
